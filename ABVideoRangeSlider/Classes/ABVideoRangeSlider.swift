@@ -148,13 +148,13 @@ public class ABVideoRangeSlider: UIView, UIGestureRecognizerDelegate {
 
         // Setup time labels
 
-        startTimeView = ABTimeView(size: CGSize(width: 60, height: 30), position: 1)
-        startTimeView.layer.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-        self.addSubview(startTimeView)
-
-        endTimeView = ABTimeView(size: CGSize(width: 60, height: 30), position: 1)
-        endTimeView.layer.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-        self.addSubview(endTimeView)
+//        startTimeView = ABTimeView(size: CGSize(width: 60, height: 30), position: 1)
+//        startTimeView.layer.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+//        self.addSubview(startTimeView)
+//
+//        endTimeView = ABTimeView(size: CGSize(width: 60, height: 30), position: 1)
+//        endTimeView.layer.anchorPoint = CGPoint(x: 0.5, y: 0.5)
+//        self.addSubview(endTimeView)
     }
 
     public override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
